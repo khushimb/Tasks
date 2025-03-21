@@ -5,5 +5,14 @@ public class Runner {
         RCB rcb = new RCB();
         Shop shop = new Shop();
         shop.buy(rcb);
+
+        Pink pink = new Pink();
+        Pillow pillow = new Pillow();
+        pillow.sleep(pink);
+
+        Movie movie = new Movie();
+        Theatre theatre = new Theatre();
+        movie.kgf(theatre);
     }
-}
+    }
+
