@@ -5,9 +5,9 @@ import com.sun.jmx.snmp.SnmpUnknownAccContrModelException;
 import javax.naming.Name;
 
 public class ChooseJail {
+    Jail jail = new Jail();
 
     public void open(){
-        Jail jail = new Jail();
         System.out.println(jail.getName());
         jail.setName("aryan");
         System.out.println(jail.getLocation());
@@ -18,4 +18,6 @@ public class ChooseJail {
         jail.setTotalCells(56);
 
     }
+
+
 }
