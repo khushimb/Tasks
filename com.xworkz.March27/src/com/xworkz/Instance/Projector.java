@@ -3,7 +3,7 @@ package com.xworkz.Instance;
 
 public class Projector {
 
-    public static void main(String[] args) {
+    public void display()  {
 
         Len lens = new Len();
         lens.watch("pink",200);
