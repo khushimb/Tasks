@@ -255,6 +255,269 @@ public class Runner {
         door.openDoor();
         System.out.println("----------------------------------------");
 
+        HumanoidRobot humanoidRobot = new HumanoidRobot();
+        humanoidRobot.talk();
+        humanoidRobot.walk();
+        System.out.println("----------------------------------------");
+
+        Winter winter = new Winter();
+        winter.fall();
+        winter.spring();
+        System.out.println("----------------------------------------");
+
+        Trex trex = new Trex();
+        trex.kill();
+        trex.walk();
+        System.out.println("----------------------------------------");
+
+        CleaningService cleaningService = new CleaningService();
+        cleaningService.cleanHall();
+        cleaningService.cleanRoom();
+        System.out.println("----------------------------------------");
+
+        Rhino rhino = new Rhino();
+        rhino.die();
+        rhino.live();
+        System.out.println("----------------------------------------");
+
+        Pipe pipe = new Pipe();
+        pipe.breakPipe();
+        pipe.fix();
+        System.out.println("----------------------------------------");
+
+        Cold cold = new Cold();
+        cold.takeSyrup();
+        cold.takeTablet();
+        System.out.println("----------------------------------------");
+
+        BlackHole blackHole = new BlackHole();
+        blackHole.black();
+        blackHole.hole();
+        System.out.println("----------------------------------------");
+
+        Asia asia = new Asia();
+        asia.map();
+        asia.population();
+        System.out.println("----------------------------------------");
+
+        India india = new India();
+        india.state();
+        india.people();
+        System.out.println("----------------------------------------");
+
+        Bitcoin bitcoin = new Bitcoin();
+        bitcoin.steelCoin();
+        bitcoin.metalCoin();
+        System.out.println("----------------------------------------");
+
+        Firewall firewall = new Firewall();
+        firewall.layer();
+        firewall.wall();
+        System.out.println("----------------------------------------");
+
+        Java java = new Java();
+        java.code();
+        java.lines();
+        System.out.println("----------------------------------------");
+
+        WashingMachine washingMachine = new WashingMachine();
+        washingMachine.wash();
+        washingMachine.dry();
+        System.out.println("----------------------------------------");
+
+        Chrome chrome = new Chrome();
+        chrome.search();
+        chrome.edit();
+        System.out.println("----------------------------------------");
+
+        ActionMovie actionMovie = new ActionMovie();
+        actionMovie.stop();
+        actionMovie.watch();
+        System.out.println("----------------------------------------");
+
+        Legoset legoset = new Legoset();
+        legoset.build();
+        legoset.play();
+        System.out.println("----------------------------------------");
+
+        Tshirt tshirt = new Tshirt();
+        tshirt.stitch();
+        tshirt.wear();
+        System.out.println("----------------------------------------");
+
+        Comic comic =new Comic();
+        comic.read();
+        comic.tear();
+        System.out.println("----------------------------------------");
+
+        Invoice invoice = new Invoice();
+        invoice.read();
+        invoice.write();
+        System.out.println("----------------------------------------");
+
+        TajMahal tajMahal = new TajMahal();
+        tajMahal.build();
+        tajMahal.destroy();
+        System.out.println("----------------------------------------");
+
+        Carrom carrom = new Carrom();
+        carrom.play();
+        carrom.turn();
+        System.out.println("----------------------------------------");
+
+        Airplane airplane = new Airplane();
+        airplane.travel();
+        airplane.ticket();
+        System.out.println("----------------------------------------");
+
+        TechStartup techStartup = new TechStartup();
+        techStartup.place();
+        techStartup.campus();
+        System.out.println("----------------------------------------");
+
+        BussinessGame bussinessGame = new BussinessGame();
+        bussinessGame.move();
+        bussinessGame.play();
+        System.out.println("----------------------------------------");
+
+        Seeds seeds = new Seeds();
+        seeds.plant();
+        seeds.takeOut();
+        System.out.println("----------------------------------------");
+
+        Puma puma = new Puma();
+        puma.buy();
+        puma.purchase();
+        System.out.println("----------------------------------------");
+
+        Iphone iphone = new Iphone();
+        iphone.operate();
+        iphone.switchoff();
+        System.out.println("----------------------------------------");
+
+        Biba biba = new Biba();
+        biba.buy();
+        biba.select();
+        System.out.println("----------------------------------------");
+
+        Black black = new Black();
+        black.rainbow();
+        black.select();
+        System.out.println("----------------------------------------");
+
+        Shiva shiva = new Shiva();
+        shiva.patience();
+        shiva.pray();
+        System.out.println("----------------------------------------");
+
+        Mango mango = new Mango();
+        mango.eat();
+        mango.melt();
+        System.out.println("----------------------------------------");
+
+        Butterscotch butterscotch = new Butterscotch();
+        butterscotch.eat();
+        butterscotch.spill();
+        System.out.println("----------------------------------------");
+
+        Lollipop lollipop = new Lollipop();
+        lollipop.melt();
+        lollipop.sip();
+        System.out.println("----------------------------------------");
+
+        Levis levis = new Levis();
+        levis.wearIt();
+        levis.wearOff();
+        System.out.println("----------------------------------------");
+
+        Brown brown = new Brown();
+        brown.paint();
+        biba.buy();
+        System.out.println("----------------------------------------");
+
+        CoronaExtra coronaExtra = new CoronaExtra();
+        coronaExtra.chug();
+        coronaExtra.drink();
+        System.out.println("----------------------------------------");
+
+        CarlsBerg carlsBerg = new CarlsBerg();
+        carlsBerg.chug();
+        carlsBerg.drunk();
+        System.out.println("----------------------------------------");
+
+        JackDaniels jackDaniels = new JackDaniels();
+        jackDaniels.thirty();
+        jackDaniels.sixty();
+        System.out.println("----------------------------------------");
+
+        Goggles goggles = new Goggles();
+        goggles.remove();
+        goggles.wear();
+        System.out.println("----------------------------------------");
+
+        Jamun jamun = new Jamun();
+        jamun.fry();
+        jamun.prepare();
+        System.out.println("----------------------------------------");
+
+        Sunglasses sunglasses = new Sunglasses();
+        sunglasses.clean();
+        sunglasses.wear();
+        System.out.println("----------------------------------------");
+
+        Insta insta = new Insta();
+        insta.use();
+        insta.block();
+        System.out.println("----------------------------------------");
+
+        Snapchat snapchat = new Snapchat();
+        snapchat.click();
+        snapchat.filter();
+        System.out.println("----------------------------------------");
+
+        Vadapav vadapav = new Vadapav();
+        vadapav.smell();
+        vadapav.tasty();
+        System.out.println("----------------------------------------");
+
+        Maggie maggie = new Maggie();
+        maggie.cook();
+        maggie.twomin();
+        System.out.println("----------------------------------------");
+
+        Rangerover rangerover = new Rangerover();
+        rangerover.drive();
+        rangerover.park();
+        System.out.println("----------------------------------------");
+
+        Cement cement = new Cement();
+        cement.breakIt();
+        cement.build();
+        System.out.println("----------------------------------------");
+
+        Sky sky = new Sky();
+        sky.rain();
+        sky.fall();
+        System.out.println("----------------------------------------");
+
+        Slipper slipper = new Slipper();
+        slipper.removing();
+        slipper.wearing();
+        System.out.println("----------------------------------------");
+
+        Pot pot = new Pot();
+        pot.sow();
+        pot.reap();
+        System.out.println("----------------------------------------");
+
+
+
+
+
+
+
+
+
 
 
 
