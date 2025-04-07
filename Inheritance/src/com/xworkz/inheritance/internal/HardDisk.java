@@ -6,5 +6,14 @@ public class HardDisk extends Storage{
         System.out.println("Running no arg const hard disk");
     }
 
+    @Override
+    public void store(){
+        System.out.println("Running store");
+    }
+    @Override
+    public void delete(){
+        System.out.println("Running delete");
+    }
+
 
 }

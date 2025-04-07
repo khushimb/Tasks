@@ -6,5 +6,15 @@ public class Shirt extends Cloth{
         System.out.println("Running no arg const shirt");
     }
 
+    @Override
+    public void wear(){
+        System.out.println("Running wear");
+    }
+
+    @Override
+    public void tear(){
+        System.out.println("Running tear");
+    }
+
 
 }

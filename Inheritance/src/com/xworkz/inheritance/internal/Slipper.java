@@ -5,4 +5,13 @@ public class Slipper extends Footwear{
         System.out.println("Running no arg const Slipper");
     }
 
+    @Override
+    public void wearing(){
+        System.out.println("Running wearing");
+    }
+    @Override
+    public void removing(){
+        System.out.println("Running removing");
+    }
+
 }

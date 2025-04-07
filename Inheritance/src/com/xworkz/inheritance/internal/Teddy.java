@@ -6,5 +6,14 @@ public class Teddy extends  Toy {
         System.out.println("running no arg const teddy");
     }
 
+    @Override
+    public void play(){
+        System.out.println("Running play");
+    }
+    @Override
+    public void cut(){
+        System.out.println("Running cut");
+    }
+
 
 }

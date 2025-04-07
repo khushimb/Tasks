@@ -5,5 +5,15 @@ public class Legoset extends Toys{
         System.out.println("Running no arg const legoset ");
     }
 
+    @Override
+    public void play(){
+        System.out.println("Running play");
+    }
+    @Override
+    public void build(){
+        System.out.println("Running build");
+    }
+
+
 
 }

@@ -6,5 +6,14 @@ public class Fridge extends Appliance{
         System.out.println("Running no arg const fridge");
     }
 
+    @Override
+    public void on(){
+        System.out.println("Running on");
+    }
+    @Override
+    public void off(){
+        System.out.println("Running off");
+    }
+
 
 }

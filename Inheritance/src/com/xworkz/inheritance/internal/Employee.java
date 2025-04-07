@@ -6,6 +6,16 @@ public class Employee extends Manager {
         System.out.println("Running no arg const employee");
     }
 
+    @Override
+    public void check(){
+        System.out.println("Running check method in manager");
+    }
+
+    @Override
+    public void print(){
+        System.out.println("Running print method in manager");
+    }
+
 
 
 }

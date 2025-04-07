@@ -6,5 +6,15 @@ public class House extends Building{
         System.out.println("Running no arg const");
     }
 
+@Override
+    public void build(){
+        System.out.println("Running build");
+    }
+
+    @Override
+    public void destroy(){
+        System.out.println("Running destroy");
+    }
+
 
 }

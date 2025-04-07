@@ -6,5 +6,14 @@ public class Chess extends Game{
         System.out.println("Running no arg const chess");
     }
 
+    @Override
+    public void lose(){
+        System.out.println("Running lose");
+    }
+    @Override
+    public void win(){
+        System.out.println("Running win");
+    }
+
 
 }

@@ -6,5 +6,14 @@ public class BlackHole extends SpaceObject{
         System.out.println("Running no arg const black hole");
     }
 
+    @Override
+    public void black(){
+        System.out.println("Running black");
+    }
+    @Override
+    public void hole() {
+        System.out.println("Running hole");
 
-}
+
+    }
+    }
