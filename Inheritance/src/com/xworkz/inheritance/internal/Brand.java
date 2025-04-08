@@ -12,5 +12,15 @@ public class Brand {
     public void sell(){
         System.out.println("Running sell");
     }
+     public void promote(){
+        System.out.println("Running promote");
+    }
+     public void purchase(){
+        System.out.println("Running purchase");
+    }
+     public void wearIt(){
+        System.out.println("Running wear it");
+    }
+
 
 }

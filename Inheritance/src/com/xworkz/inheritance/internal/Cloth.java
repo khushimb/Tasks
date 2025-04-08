@@ -13,5 +13,15 @@ public class Cloth {
     public void tear(){
         System.out.println("Running tear");
     }
+    public void wash(){
+        System.out.println("Running wash");
+    }
+    public void dry(){
+        System.out.println("Running dry");
+    }
+    public void style(){
+        System.out.println("Running style");
+    }
+
 
 }

@@ -12,6 +12,16 @@ public class Bank {
      public void close(){
         System.out.println("Running close");
     }
+    public void deposit(){
+        System.out.println("Running deposit");
+    }
+    public void check(){
+        System.out.println("Running check");
+    }
+    public void remove(){
+        System.out.println("Running remove");
+    }
+
 
 
 }

@@ -12,5 +12,15 @@ public class Appliance {
     public void off(){
         System.out.println("Running off");
     }
+    public void repair(){
+        System.out.println("Running repair");
+    }
+    public void use(){
+        System.out.println("Running use");
+    }
+    public void destroy(){
+        System.out.println("Running destroy");
+    }
+
 
 }

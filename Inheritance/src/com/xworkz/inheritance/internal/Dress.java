@@ -11,5 +11,15 @@ public class Dress {
     public void tear(){
         System.out.println("Running tear");
     }
+    public void style(){
+        System.out.println("Running style");
+    }
+    public void fashion(){
+        System.out.println("Running fashion");
+    }
+    public void top(){
+        System.out.println("Running top");
+    }
+
 
 }

@@ -12,5 +12,16 @@ public class Account {
     public void act(){
         System.out.println("Running act");
     }
+    public void open(){
+        System.out.println("Running open");
+    }
+    public void check(){
+        System.out.println("Running check");
+    }
+    public void closeAll(){
+        System.out.println("Running closeAll");
+    }
+
+
 
 }

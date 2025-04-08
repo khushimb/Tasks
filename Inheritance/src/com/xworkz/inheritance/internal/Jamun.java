@@ -13,4 +13,14 @@ public class Jamun extends Sweet{
     public void fry(){
         System.out.println("Running fry");
     }
+    public void fry1(){
+        System.out.println("Running fry1");
+    }
+    public void fry2(){
+        System.out.println("Running fry2");
+    }
+    public void fry3(){
+        System.out.println("Running fry3");
+    }
+
 }

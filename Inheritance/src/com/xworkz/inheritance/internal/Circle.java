@@ -12,7 +12,22 @@ public class Circle extends Shape{
     }
 
     @Override
-    public void insert(){
-        System.out.println("Running draw method in Shape");
+    public void insert()
+    {
+        System.out.println("Running insert method in Shape");
     }
+    public void half()
+    {
+        System.out.println("Running half method in half");
+    }
+    public void full()
+    {
+        System.out.println("Running full method in Shape");
+    }
+    public void semi()
+    {
+        System.out.println("Running semi method in Shape");
+    }
+
+
 }

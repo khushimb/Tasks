@@ -16,4 +16,14 @@ public class Hammer extends Tool{
     public void open(){
         System.out.println("Running open");
     }
+    public void open1(){
+        System.out.println("Running open1");
+    }
+    public void open2(){
+        System.out.println("Running open2");
+    }
+    public void open3(){
+        System.out.println("Running open3");
+    }
+
 }

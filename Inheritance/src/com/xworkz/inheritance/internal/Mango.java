@@ -13,4 +13,14 @@ public class Mango extends Flavour{
     public void melt(){
         System.out.println("Running melt");
     }
+    public void melt1(){
+        System.out.println("Running melt1");
+    }
+    public void melt2(){
+        System.out.println("Running melt2");
+    }
+    public void melt3(){
+        System.out.println("Running melt3");
+    }
+
 }

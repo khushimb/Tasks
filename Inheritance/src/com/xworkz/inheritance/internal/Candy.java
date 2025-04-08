@@ -11,5 +11,15 @@ public class Candy {
     public void melt(){
         System.out.println("Running melt");
     }
+    public void eat(){
+        System.out.println("Running eat");
+    }
+    public void lick(){
+        System.out.println("Running lick");
+    }
+    public void taste(){
+        System.out.println("Running taste");
+    }
+
 
 }

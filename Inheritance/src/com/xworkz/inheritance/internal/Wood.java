@@ -11,6 +11,16 @@ public class Wood {
      public void closeDoor(){
         System.out.println("Running close door");
     }
+     public void closeDoor1(){
+        System.out.println("Running close door1");
+    }
+     public void closeDoor2(){
+        System.out.println("Running close door2");
+    }
+     public void closeDoor3(){
+        System.out.println("Running close door3");
+    }
+
 
 
 }

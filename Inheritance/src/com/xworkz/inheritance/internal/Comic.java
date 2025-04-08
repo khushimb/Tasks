@@ -13,4 +13,14 @@ public class Comic extends Books{
     public void tear(){
         System.out.println("Running tear");
     }
+    public void roll(){
+        System.out.println("Running roll");
+    }
+    public void write(){
+        System.out.println("Running write");
+    }
+    public void author(){
+        System.out.println("Running author");
+    }
+
 }

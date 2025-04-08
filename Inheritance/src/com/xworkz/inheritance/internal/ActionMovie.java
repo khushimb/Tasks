@@ -13,4 +13,17 @@ public class ActionMovie extends Movie {
         System.out.println("running stop");
     }
 
+    public void see(){
+        System.out.println("running see");
+    }
+
+    public void act(){
+        System.out.println("running stop");
+    }
+
+    public void seen(){
+        System.out.println("running seen");
+    }
+
+
 }

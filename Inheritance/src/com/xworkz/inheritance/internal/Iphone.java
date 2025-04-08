@@ -13,4 +13,14 @@ public class Iphone extends Mobile{
     public void switchoff(){
         System.out.println("Running switch off");
     }
+    public void switchoff1(){
+        System.out.println("Running switch off1");
+    }
+    public void switchoff2(){
+        System.out.println("Running switch off2");
+    }
+    public void switchoff3(){
+        System.out.println("Running switch off3");
+    }
+
 }

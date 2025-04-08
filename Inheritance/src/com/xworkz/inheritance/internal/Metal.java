@@ -12,5 +12,15 @@ public class Metal {
     public void breakPipe(){
         System.out.println("Running break pipe");
     }
+    public void breakPipe1(){
+        System.out.println("Running break pipe1");
+    }
+    public void breakPipe2(){
+        System.out.println("Running break pipe2");
+    }
+    public void breakPipe3(){
+        System.out.println("Running break pipe3");
+    }
+
 
 }

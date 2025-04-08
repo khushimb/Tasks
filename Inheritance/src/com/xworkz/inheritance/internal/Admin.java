@@ -12,5 +12,15 @@ public class Admin {
      public void close(){
         System.out.println("Running close");
     }
+    public void use(){
+        System.out.println("Running use");
+    }
+    public void hack(){
+        System.out.println("Running hack");
+    }
+    public void control(){
+        System.out.println("Running control");
+    }
+
 
 }

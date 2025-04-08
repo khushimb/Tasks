@@ -12,5 +12,15 @@ public class Meal {
      public void cook(){
         System.out.println("Running cook");
     }
+    public void cook1(){
+        System.out.println("Running cook1");
+    }
+    public void cook2(){
+        System.out.println("Running cook2");
+    }
+    public void cook3(){
+        System.out.println("Running cook3");
+    }
+
 
 }

@@ -10,5 +10,15 @@ public class BoardGames {
     public void move(){
         System.out.println("Running move");
     }
+    public void find(){
+        System.out.println("Running find");
+    }
+    public void open(){
+        System.out.println("Running open");
+    }
+    public void close(){
+        System.out.println("Running close");
+    }
+
 
 }

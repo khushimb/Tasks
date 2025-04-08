@@ -11,5 +11,15 @@ public class Coin {
     public void steelCoin(){
         System.out.println("Running steel coin");
     }
+    public void flip(){
+        System.out.println("Running flip");
+    }
+    public void grey(){
+        System.out.println("Running grey");
+    }
+    public void circle(){
+        System.out.println("Running circle");
+    }
+
 
 }

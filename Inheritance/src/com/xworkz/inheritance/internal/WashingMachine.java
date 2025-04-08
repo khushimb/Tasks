@@ -13,5 +13,15 @@ public class WashingMachine extends Machine{
     public void dry(){
         System.out.println("ruuning dry");
     }
+    public void dry1(){
+        System.out.println("ruuning dry1");
+    }
+    public void dry2(){
+        System.out.println("ruuning dry2");
+    }
+    public void dry3(){
+        System.out.println("ruuning dry3");
+    }
+
 
 }

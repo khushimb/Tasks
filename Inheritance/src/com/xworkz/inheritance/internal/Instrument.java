@@ -12,5 +12,15 @@ public class Instrument {
     public void stop(){
         System.out.println("Running stop");
     }
+    public void stop1(){
+        System.out.println("Running stop1");
+    }
+    public void stop2(){
+        System.out.println("Running stop2");
+    }
+    public void stop3(){
+        System.out.println("Running stop3");
+    }
+
 
 }

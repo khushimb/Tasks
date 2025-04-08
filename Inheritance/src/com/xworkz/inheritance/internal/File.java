@@ -12,5 +12,15 @@ public class File {
     public void close(){
         System.out.println("running close");
     }
+    public void edit(){
+        System.out.println("running edit");
+    }
+    public void doc(){
+        System.out.println("running doc");
+    }
+    public void search(){
+        System.out.println("running search");
+    }
+
 
 }

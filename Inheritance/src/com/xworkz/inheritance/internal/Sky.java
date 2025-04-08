@@ -13,4 +13,14 @@ public class Sky extends Beautiful{
     public void rain(){
         System.out.println("Running rain");
     }
+    public void rain1(){
+        System.out.println("Running rain1");
+    }
+    public void rain2(){
+        System.out.println("Running rain2");
+    }
+    public void rain3(){
+        System.out.println("Running rain3");
+    }
+
 }

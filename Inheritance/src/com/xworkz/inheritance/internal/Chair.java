@@ -16,4 +16,17 @@ public class Chair extends Furniture{
         System.out.println("Running build");
     }
 
+     public void build1(){
+        System.out.println("Running build1");
+    }
+
+     public void build2(){
+        System.out.println("Running build2");
+    }
+
+     public void build3(){
+        System.out.println("Running build3");
+    }
+
+
 }

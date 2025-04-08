@@ -13,4 +13,17 @@ public class Fruit {
         System.out.println("Running cut");
     }
 
+    public void cut1(){
+        System.out.println("Running cut1");
+    }
+
+    public void cut2(){
+        System.out.println("Running cut2");
+    }
+
+    public void cut3(){
+        System.out.println("Running cut3");
+    }
+
+
 }

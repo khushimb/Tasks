@@ -11,5 +11,15 @@ public class Books {
     public void tear(){
         System.out.println("Running tear");
     }
+    public void print(){
+        System.out.println("Running tear");
+    }
+    public void write(){
+        System.out.println("Running tear");
+    }
+    public void thick(){
+        System.out.println("Running tear");
+    }
+
 
 }

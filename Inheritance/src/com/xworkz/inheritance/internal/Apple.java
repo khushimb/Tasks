@@ -16,5 +16,17 @@ public class Apple extends Fruit{
         System.out.println("Running cut");
     }
 
+ public void pick(){
+        System.out.println("Running pick");
+    }
+
+ public void grow(){
+        System.out.println("Running grow");
+    }
+
+ public void vomit(){
+        System.out.println("Running vomit");
+    }
+
 
 }

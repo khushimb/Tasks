@@ -11,5 +11,15 @@ public class Company {
     public void campus(){
         System.out.println("Running campus");
     }
+    public void roam(){
+        System.out.println("Running roam");
+    }
+    public void method4(){
+        System.out.println("Running method4");
+    }
+    public void method5(){
+        System.out.println("Running method5");
+    }
+
 
 }

@@ -11,5 +11,15 @@ public class Whisky {
      public void thirty(){
         System.out.println("Running thirty");
     }
+    public void thirty1(){
+        System.out.println("Running thirty1");
+    }
+    public void thirty2(){
+        System.out.println("Running thirty2");
+    }
+    public void thirty3(){
+        System.out.println("Running thirty3");
+    }
+
 
 }

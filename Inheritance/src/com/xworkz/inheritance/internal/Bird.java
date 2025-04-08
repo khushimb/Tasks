@@ -9,8 +9,21 @@ public class Bird {
     public void fly(){
         System.out.println("Running fly");
     }
-     public void eat(){
+     public void eat()
+     {
         System.out.println("Running eat");
+    }
+     public void sleep()
+     {
+        System.out.println("Running sleep");
+    }
+public void flucker()
+     {
+        System.out.println("Running flucker");
+    }
+public void move()
+     {
+        System.out.println("Running move");
     }
 
 

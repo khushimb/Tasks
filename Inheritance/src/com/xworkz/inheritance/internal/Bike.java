@@ -12,8 +12,18 @@ public class Bike extends Transportation{
     }
     @Override
     public void truck(){
-        System.out.println("running car");
+        System.out.println("running truck");
     }
+    public void vespa(){
+        System.out.println("running vespa");
+    }
+    public void activa(){
+        System.out.println("running activa");
+    }
+    public void honda(){
+        System.out.println("running honda");
+    }
+
 
 
 }

@@ -1079,207 +1079,456 @@ public class Runner {
         Thing thing1 = new Pot();
         thing1.reap();
         thing1.sow();
-        System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
+        System.out.println("================================================");
 
         PassBook passBook = new PassBook();
         passBook.checkBalance(account);
+        passBook.open();
+        passBook.close();
+        passBook.check();
+        passBook.closeAll();
+        passBook.act();
         System.out.println("----------------------------------------");
 
         SpiderMan spiderMan = new SpiderMan();
         spiderMan.jump(actionMovie);
+        spiderMan.act();
+        spiderMan.see();
+        spiderMan.seen();
+        spiderMan.stop();
+        spiderMan.watch();
         System.out.println("----------------------------------------");
 
         AcessController acessController = new AcessController();
         acessController.fetchDetails(admin);
+        acessController.control();
+        acessController.hack();
+        acessController.use();
+        acessController.open();
+        acessController.close();
         System.out.println("----------------------------------------");
 
         Jet jet = new Jet();
         jet.flyHigh(airplane);
+        jet.fly();
+        jet.purchase();
+        jet.flyThroughout();
+        jet.ticket();
+        jet.ticket();
         System.out.println("----------------------------------------");
 
         Rat rat = new Rat();
         rat.kill(animal);
+        rat.pee();
+        rat.poop();
+        rat.follow();
+        rat.bark();
+        rat.see();
         System.out.println("----------------------------------------");
 
         Syrup syrup = new Syrup();
         syrup.cough(apple);
+        syrup.grow();
+        syrup.eat();
+        syrup.cut();
+        syrup.pick();
+        syrup.vomit();
         System.out.println("----------------------------------------");
 
         IronBox ironBox = new IronBox();
         ironBox.iron(appliance);
+        appliance.repair();
+        appliance.use();
+        appliance.destroy();
+        appliance.on();
+        appliance.off();
         System.out.println("----------------------------------------");
 
         Bankrupt bankrupt = new Bankrupt();
         bankrupt.checkBalance(bankrupt);
+        bankrupt.open();
+        bankrupt.close();
+        bankrupt.deposit();
+        bankrupt.check();
+        bankrupt.remove();
         System.out.println("----------------------------------------");
 
         KingFisher kingFisher = new KingFisher();
         kingFisher.getDrunk(beer);
+        kingFisher.drink();
+        kingFisher.chug();
+        kingFisher.sour();
+        kingFisher.yellow();
+        kingFisher.spill();
         System.out.println("----------------------------------------");
 
         VelvateenRabbit velvateenRabbit = new VelvateenRabbit();
         velvateenRabbit.read(books);
+        velvateenRabbit.print();
+        velvateenRabbit.read();
+        velvateenRabbit.write();
+        velvateenRabbit.thick();
+        velvateenRabbit.tear();
         System.out.println("----------------------------------------");
 
         Coach coach = new Coach();
         coach.luxury(brand);
+        coach.promote();
+        coach.wearIt();
+        coach.purchase();
+        coach.buy();
+        coach.sell();
         System.out.println("----------------------------------------");
 
         USCoin usCoin = new USCoin();
         usCoin.bronze(coin);
+        usCoin.circle();
+        usCoin.flip();
+        usCoin.grey();
+        usCoin.steelCoin();
+        usCoin.metalCoin();
         System.out.println("----------------------------------------");
 
         Aprilla aprilla = new Aprilla();
         aprilla.drive(bike);
+        aprilla.activa();
+        aprilla.honda();
+        aprilla.vespa();
+        aprilla.truck();
+        aprilla.car();
         System.out.println("----------------------------------------");
 
         China china = new China();
         china.travel(asia);
+        china.men();
+        china.women();
+        china.people();
+        china.population();
+        china.map();
         System.out.println("----------------------------------------");
 
         Website website = new Website();
         website.search(chrome);
+        website.open();
+        website.close();
+        website.decorate();
+        website.edit();
+        website.search();
         System.out.println("----------------------------------------");
 
         Sequence sequence = new Sequence();
         sequence.playIt(boardGames);
+        sequence.play();
+        sequence.move();
+        sequence.find();
+        sequence.open();
+        sequence.close();
         System.out.println("----------------------------------------");
 
         Bangle bangle = new Bangle();
         bangle.wearIt(circle);
+        bangle.full();
+        bangle.half();
+        bangle.semi();
+        bangle.draw();
+        bangle.insert();
         System.out.println("----------------------------------------");
 
         Crow crow = new Crow();
         crow.flyHigh(bird);
+        bird.eat();
+        bird.flucker();
+        bird.fly();
+        bird.sleep();
+        bird.move();
         System.out.println("----------------------------------------");
 
         Tata tata = new Tata();
         tata.permit(company);
+        tata.method4();
+        tata.method5();
+        tata.roam();
+        tata.place();
+        tata.campus();
         System.out.println("----------------------------------------");
 
         Africa africa = new Africa();
         africa.see(country);
+        africa.china();
+        africa.india();
+        africa.people();
+        africa.state();
+        africa.cities();
         System.out.println("----------------------------------------");
 
         Dosa dosa = new Dosa();
         dosa.eat(breakfast);
+        dosa.eat();
+        dosa.prepare();
+        dosa.cook();
+        dosa.serve();
+        dosa.decor();
         System.out.println("----------------------------------------");
 
         OffShoulder offShoulder = new OffShoulder();
         offShoulder.style(dress);
+        offShoulder.wear();
+        offShoulder.top();
+        offShoulder.tear();
+        offShoulder.fashion();
+        offShoulder.style();
         System.out.println("----------------------------------------");
 
         AadharCard aadharCard = new AadharCard();
         aadharCard.see(file);
+        aadharCard.open();
+        aadharCard.close();
+        aadharCard.edit();
+        aadharCard.doc();
+        aadharCard.search();
         System.out.println("----------------------------------------");
 
         Jeans jeans = new Jeans();
         jeans.wear(cloth);
+        jeans.wear();
+        jeans.dry();
+        jeans.wash();
+        jeans.torn();
+        jeans.style();
         System.out.println("----------------------------------------");
 
         ChocoChips chocoChips = new ChocoChips();
         chocoChips.eat(candy);
+        chocoChips.eat();
+        chocoChips.lick();
+        chocoChips.sip();
+        chocoChips.melt();
+        chocoChips.taste();
         System.out.println("----------------------------------------");
-
 
         Tinkel tinkel = new Tinkel();
         tinkel.read(comic);
+        tinkel.read();
+        tinkel.write();
+        tinkel.roll();
+        tinkel.tear();
+        tinkel.author();
         System.out.println("----------------------------------------");
 
         Sodium sodium = new Sodium();
         sodium.explode(element);
+        sodium.method1();
+        sodium.method2();
+        sodium.method3();
+        sodium.method4();
+        sodium.method5();
         System.out.println("----------------------------------------");
 
         Lounge lounge = new Lounge();
         lounge.see(sky);
+        lounge.watch();
+        lounge.rain();
+        lounge.rain1();
+        lounge.rain2();
+        lounge.rain3();
         System.out.println("----------------------------------------");
 
         Table table = new Table();
         table.sit(wood);
+        table.openDoor();
+        table.closeDoor();
+        table.closeDoor1();
+        table.closeDoor2();
+        table.closeDoor3();
         System.out.println("----------------------------------------");
 
         USPolo usPolo = new USPolo();
         usPolo.wear(tshirt);
+        usPolo.wear();
+        usPolo.stitch();
+        usPolo.stitch1();
+        usPolo.stitch2();
+        usPolo.stitch3();
         System.out.println("----------------------------------------");
 
         Helicopter helicopter=new Helicopter();
         helicopter.fly(vehicle);
+        helicopter.drive();
+        helicopter.park();
+        helicopter.park1();
+        helicopter.park2();
+        helicopter.park3();
         System.out.println("----------------------------------------");
 
         Piano piano = new Piano();
         piano.play(instrument);
+        piano.play();
+        piano.stop();
+        piano.stop1();
+        piano.stop2();
+        piano.stop3();
         System.out.println("----------------------------------------");
 
         Wifi wifi = new Wifi();
         wifi.search(network);
+        wifi.speed();
+        wifi.slow();
+        wifi.slow1();
+        wifi.slow2();
+        wifi.slow3();
         System.out.println("----------------------------------------");
 
         Ibm ibm = new Ibm();
         ibm.wash(washingMachine);
+        ibm.wash();
+        ibm.dry();
+        ibm.dry1();
+        ibm.dry2();
+        ibm.dry3();
         System.out.println("----------------------------------------");
 
         Ios ios = new Ios();
         ios.use(iphone);
+        ios.operate();
+        ios.switchoff();
+        ios.switchoff1();
+        ios.switchoff2();
+        ios.switchoff3();
         System.out.println("----------------------------------------");
 
         French french = new French();
         french.learn(language);
+        french.study();
+        french.write();
+        french.write1();
+        french.write2();
+        french.write3();
         System.out.println("----------------------------------------");
 
         WoodStick woodStick = new WoodStick();
         woodStick.beat(hammer);
+        woodStick.screw();
+        woodStick.open();
+        woodStick.open1();
+        woodStick.open2();
+        woodStick.open3();
         System.out.println("----------------------------------------");
 
         Dewars dewars = new Dewars();
         dewars.drink(whisky);
+        dewars.sixty();
+        dewars.thirty();
+        dewars.thirty1();
+        dewars.thirty2();
+        dewars.thirty3();
         System.out.println("----------------------------------------");
 
         Mocktail mocktail = new Mocktail();
         mocktail.drink(drink);
+        mocktail.drinkTea();
+        mocktail.spillTea();
+        mocktail.spillTea1();
+        mocktail.spillTea2();
+        mocktail.spillTea3();
         System.out.println("----------------------------------------");
 
         Ice ice = new Ice();
         ice.melt(mango);
+        ice.eat();
+        ice.melt();
+        ice.melt1();
+        ice.melt2();
+        ice.melt3();
         System.out.println("----------------------------------------");
 
         IceFlavour iceFlavour = new IceFlavour();
         iceFlavour.eat(jamun);
+        iceFlavour.prepare();
+        iceFlavour.fry();
+        iceFlavour.fry1();
+        iceFlavour.fry2();
+        iceFlavour.fry3();
         System.out.println("----------------------------------------");
 
         Developer developer = new Developer();
         developer.coder(java);
+        developer.code();
+        developer.lines();
+        developer.lines1();
+        developer.lines2();
+        developer.lines3();
         System.out.println("----------------------------------------");
 
         JackFruit jackFruit = new JackFruit();
         jackFruit.peal(fruit);
+        jackFruit.eat();
+        jackFruit.cut();
+        jackFruit.cut1();
+        jackFruit.cut2();
+        jackFruit.cut3();
         System.out.println("----------------------------------------");
 
         TableStand tableStand = new TableStand();
         tableStand.keep(light);
+        tableStand.on();
+        tableStand.off();
+        tableStand.off1();
+        tableStand.off2();
+        tableStand.off3();
         System.out.println("----------------------------------------");
 
         Architecture architecture = new Architecture();
         architecture.build(tajMahal);
+        architecture.build();
+        architecture.destroy();
+        architecture.destroy1();
+        architecture.destroy2();
+        architecture.destroy3();
         System.out.println("----------------------------------------");
 
         Fever fever = new Fever();
         fever.sweat(disease);
+        fever.takeTablet();
+        fever.takeSyrup();
+        fever.takeSyrup1();
+        fever.takeSyrup2();
+        fever.takeSyrup3();
         System.out.println("----------------------------------------");
 
         Brunch brunch = new Brunch();
         brunch.eat(meal);
+        brunch.eat();
+        brunch.cook();
+        brunch.cook1();
+        brunch.cook2();
+        brunch.cook3();
         System.out.println("----------------------------------------");
 
         Fiber fiber = new Fiber();
         fiber.sit(chair);
+        fiber.move();
+        fiber.build();
+        fiber.build1();
+        fiber.build2();
+        fiber.build3();
         System.out.println("----------------------------------------");
 
         Earrings earrings = new Earrings();
         earrings.wear(metal);
+        earrings.fix();
+        earrings.breakPipe();
+        earrings.breakPipe1();
+        earrings.breakPipe2();
+        earrings.breakPipe3();
         System.out.println("----------------------------------------");
 
         Flats flats = new Flats();
         flats.wear(flats);
+        flats.wearing();
+        flats.removing();
+        flats.removing1();
+        flats.removing2();
+        flats.removing3();
         System.out.println("----------------------------------------");
 
 

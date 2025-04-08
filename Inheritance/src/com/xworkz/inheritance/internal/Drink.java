@@ -12,5 +12,15 @@ public class Drink {
      public void spillTea(){
         System.out.println("Running spill tea");
     }
+     public void spillTea1(){
+        System.out.println("Running spill tea1");
+    }
+     public void spillTea2(){
+        System.out.println("Running spill tea2");
+    }
+     public void spillTea3(){
+        System.out.println("Running spill tea3");
+    }
+
 
 }

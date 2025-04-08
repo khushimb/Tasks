@@ -13,4 +13,14 @@ public class Breakfast extends Meal{
     public void cook(){
         System.out.println("Running cook");
     }
+    public void serve(){
+        System.out.println("Running serve");
+    }
+    public void decor(){
+        System.out.println("Running decor");
+    }
+    public void prepare(){
+        System.out.println("Running prepare");
+    }
+
 }

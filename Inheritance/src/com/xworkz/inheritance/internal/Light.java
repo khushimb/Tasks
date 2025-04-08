@@ -12,5 +12,15 @@ public class Light {
     public void off(){
         System.out.println("Running off");
     }
+    public void off1(){
+        System.out.println("Running off1");
+    }
+    public void off2(){
+        System.out.println("Running off2");
+    }
+    public void off3(){
+        System.out.println("Running off3");
+    }
+
 
 }

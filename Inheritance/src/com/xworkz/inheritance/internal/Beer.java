@@ -11,5 +11,15 @@ public class Beer {
      public void chug(){
         System.out.println("running chug");
     }
+    public void yellow(){
+        System.out.println("running yellow");
+    }
+    public void hangover(){
+        System.out.println("running hangover");
+    }
+    public void sour(){
+        System.out.println("running sour");
+    }
+
 
 }

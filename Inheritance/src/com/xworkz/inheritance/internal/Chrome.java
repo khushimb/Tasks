@@ -13,4 +13,14 @@ public class Chrome extends Browser{
     public void edit(){
         System.out.println("running edit");
     }
+    public void open(){
+        System.out.println("running open");
+    }
+    public void close(){
+        System.out.println("running close");
+    }
+    public void decorate(){
+        System.out.println("running decorate");
+    }
+
 }
