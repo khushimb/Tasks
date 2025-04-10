@@ -15,4 +15,9 @@ package com.xworkz.ObjectToString.internal;
     public String toString() {
         return "Title:" + title + " Message:" + message + " Type:" + type;
     }
+
+     @Override
+     public int hashCode() {
+         return 42;
+     }
 }

@@ -15,5 +15,10 @@ public class Hook {
     public String toString() {
         return "Before:" + before + " After:" + after + " Error:" + error;
     }
+
+    @Override
+    public int hashCode() {
+        return 27;
+    }
 }
 

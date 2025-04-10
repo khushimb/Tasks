@@ -15,5 +15,10 @@ public class Map {
     public String toString() {
         return "Latitude:" + latitude + " Longitude:" + longitude + " Zoom:" + zoom;
     }
+
+    @Override
+    public int hashCode() {
+        return 37;
+    }
 }
 

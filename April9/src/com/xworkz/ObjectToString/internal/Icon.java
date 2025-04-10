@@ -15,5 +15,10 @@ public class Icon {
     public String toString() {
         return "Name:" + name + " Size:" + size + " Color:" + color;
     }
+
+    @Override
+    public int hashCode() {
+        return 27;
+    }
 }
 

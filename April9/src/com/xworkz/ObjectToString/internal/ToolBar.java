@@ -15,5 +15,10 @@ public class ToolBar {
     public String toString() {
         return "Items:" + items + " Position:" + position + " Background:" + background;
     }
+
+    @Override
+    public int hashCode() {
+        return 691;
+    }
 }
 

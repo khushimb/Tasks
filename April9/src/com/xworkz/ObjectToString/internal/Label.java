@@ -15,5 +15,10 @@ public class Label {
     public String toString() {
         return "Text:" + text + " Color:" + color + " Size:" + size;
     }
+
+    @Override
+    public int hashCode() {
+        return 32;
+    }
 }
 

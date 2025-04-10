@@ -15,6 +15,11 @@ public class Env {
         public String toString() {
             return "Dev:" + dev + " Staging:" + staging + " Prod:" + prod;
         }
+
+    @Override
+    public int hashCode() {
+        return 54;
     }
+}
 
 

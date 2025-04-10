@@ -17,4 +17,9 @@ public class Comment {
     public String toString() {
         return "Time:" + time + "Times:" + times + "Place:" + place;
     }
+
+    @Override
+    public int hashCode() {
+        return 30;
+    }
 }

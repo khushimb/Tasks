@@ -15,4 +15,9 @@ public class Tool {
     public String toString() {
         return "Name:" + name + " Version:" + version + " Type:" + type;
     }
+
+    @Override
+    public int hashCode() {
+        return 789;
+    }
 }

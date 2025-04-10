@@ -15,5 +15,10 @@ public class Wrapper {
     public String toString() {
         return "ClassName:" + className + " Width:" + width + " Height:" + height;
     }
+
+    @Override
+    public int hashCode() {
+        return 101;
+    }
 }
 

@@ -15,5 +15,10 @@ public class Pin {
     public String toString() {
         return "Code:" + code + " Type:" + type + " Status:" + status;
     }
+
+    @Override
+    public int hashCode() {
+        return 45;
+    }
 }
 

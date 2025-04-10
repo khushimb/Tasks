@@ -15,5 +15,9 @@ public class Progress {
     public String toString() {
         return "Task:" + task + " Percent:" + percent + " Status:" + status;
     }
+    @Override
+    public int hashCode() {
+        return 41;
+    }
 }
 

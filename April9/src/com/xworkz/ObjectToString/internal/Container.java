@@ -17,4 +17,9 @@ public class Container {
     public String toString() {
         return "Size:" + size + "Price:" + price + "Brand:" + brand;
     }
+
+    @Override
+    public int hashCode() {
+        return 37;
+    }
 }

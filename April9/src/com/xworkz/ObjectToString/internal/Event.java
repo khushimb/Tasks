@@ -15,5 +15,10 @@ public class Event {
     public String toString() {
         return "Upcoming:" + upcoming + " Current:" + current + " Past:" + past;
     }
+
+    @Override
+    public int hashCode() {
+        return 79;
+    }
 }
 

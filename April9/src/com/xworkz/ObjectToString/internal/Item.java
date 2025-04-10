@@ -15,5 +15,10 @@ public class Item {
     public String toString() {
         return "ID:" + id + " Name:" + name + " Price:" + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 31;
+    }
 }
 

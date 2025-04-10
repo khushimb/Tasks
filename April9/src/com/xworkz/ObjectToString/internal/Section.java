@@ -15,4 +15,9 @@ public class Section {
     public String toString() {
         return "Name:" + name + " Order:" + order + " Visible:" + visible;
     }
+
+    @Override
+    public int hashCode() {
+        return 57;
+    }
 }

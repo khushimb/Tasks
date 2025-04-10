@@ -15,5 +15,10 @@ public class Review {
     public String toString() {
         return "Reviewer:" + reviewer + " Comment:" + comment + " Rating:" + rating;
     }
+
+    @Override
+    public int hashCode() {
+        return 55;
+    }
 }
 

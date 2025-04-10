@@ -15,5 +15,10 @@ public class Gallery {
     public String toString() {
         return "Grid:" + grid + " List:" + list + " Carousel:" + carousel;
     }
+
+    @Override
+    public int hashCode() {
+        return 23;
+    }
 }
 

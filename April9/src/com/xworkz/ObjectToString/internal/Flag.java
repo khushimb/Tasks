@@ -15,4 +15,9 @@ public class Flag {
     public String toString() {
         return "New:" + isNew + " Popular:" + popular + " Hot:" + hot;
     }
+
+    @Override
+    public int hashCode() {
+        return 56;
+    }
 }

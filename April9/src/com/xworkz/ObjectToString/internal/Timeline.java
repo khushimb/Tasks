@@ -15,5 +15,10 @@ public class Timeline {
     public String toString() {
         return "Event:" + event + " Time:" + time + " Description:" + description;
     }
+
+    @Override
+    public int hashCode() {
+        return 345;
+    }
 }
 

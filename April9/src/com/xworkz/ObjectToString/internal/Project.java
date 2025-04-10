@@ -15,5 +15,10 @@ public class Project {
     public String toString() {
         return "Title:" + title + " Deadline:" + deadline + " Manager:" + manager;
     }
+
+    @Override
+    public int hashCode() {
+        return 43;
+    }
 }
 

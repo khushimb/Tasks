@@ -15,5 +15,10 @@ public class Tag {
     public String toString() {
         return "Name:" + name + " Color:" + color + " Icon:" + icon;
     }
+
+    @Override
+    public int hashCode() {
+        return 54;
+    }
 }
 

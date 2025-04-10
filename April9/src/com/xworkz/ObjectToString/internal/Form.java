@@ -15,4 +15,9 @@ public class Form {
     public String toString() {
         return "Inline:" + inline + " Horizontal:" + horizontal + " Vertical:" + vertical;
     }
+
+    @Override
+    public int hashCode() {
+        return 22;
+    }
 }

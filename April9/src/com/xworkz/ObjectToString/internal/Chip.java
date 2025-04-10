@@ -17,4 +17,9 @@ public class Chip {
     public String toString() {
         return "Color:" + color + "Price:" + price + "Brand:" + brand;
     }
+
+    @Override
+    public int hashCode() {
+        return 40;
+    }
 }

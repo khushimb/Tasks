@@ -15,5 +15,10 @@ public class Stat {
     public String toString() {
         return "Name:" + name + " Value:" + value + " Unit:" + unit;
     }
+
+    @Override
+    public int hashCode() {
+        return 59;
+    }
 }
 

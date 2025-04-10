@@ -15,5 +15,10 @@ public class Modal {
     public String toString() {
         return "Header:" + header + " Body:" + body + " Footer:" + footer;
     }
+
+    @Override
+    public int hashCode() {
+        return 39;
+    }
 }
 

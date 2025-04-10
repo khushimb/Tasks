@@ -16,4 +16,9 @@ public class Search {
     public String toString() {
         return "Query:" + query + " Results:" + results + " Filter:" + filter;
     }
+
+    @Override
+    public int hashCode() {
+        return 56;
+    }
 }

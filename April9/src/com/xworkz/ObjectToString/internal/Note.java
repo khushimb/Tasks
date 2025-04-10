@@ -15,5 +15,10 @@ public class Note {
     public String toString() {
         return "Title:" + title + " Content:" + content + " Category:" + category;
     }
+
+    @Override
+    public int hashCode() {
+        return 41;
+    }
 }
 

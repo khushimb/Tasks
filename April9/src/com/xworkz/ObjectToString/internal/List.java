@@ -14,5 +14,10 @@ public class List {
     public String toString() {
         return "Ordered:" + ordered + " Unordered:" + unordered + " Type:" + type;
     }
+
+    @Override
+    public int hashCode() {
+        return 34;
+    }
 }
 

@@ -15,5 +15,10 @@ public class Status {
     public String toString() {
         return "Code:" + code + " Message:" + message + " Type:" + type;
     }
+
+    @Override
+    public int hashCode() {
+        return 60;
+    }
 }
 

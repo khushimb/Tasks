@@ -17,6 +17,11 @@ public class Box {
     public String toString(){
         return "Color:"+color+"Counts:"+counts+"Size:"+size;
     }
+
+    @Override
+    public int hashCode() {
+        return 90;
+    }
 }
 
 

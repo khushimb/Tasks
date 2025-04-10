@@ -15,5 +15,10 @@ public class Text {
     public String toString() {
         return "Content:" + content + " Font:" + font + " Color:" + color;
     }
+
+    @Override
+    public int hashCode() {
+        return 654;
+    }
 }
 

@@ -17,4 +17,9 @@ public class CheckBox {
     public String toString() {
         return "Size:" + size + "Price:" + price + "ticked:" + ticked;
     }
+
+    @Override
+    public int hashCode() {
+        return 82;
+    }
 }

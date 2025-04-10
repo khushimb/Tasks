@@ -15,4 +15,9 @@ public class Post {
     public String toString() {
         return "Author:" + author + " Content:" + content + " Date:" + date;
     }
+
+    @Override
+    public int hashCode() {
+        return 47;
+    }
 }

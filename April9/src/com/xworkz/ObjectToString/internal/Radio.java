@@ -15,5 +15,10 @@ public class Radio {
     public String toString() {
         return "Frequency:" + frequency + " Channel:" + channel + " Language:" + language;
     }
+
+    @Override
+    public int hashCode() {
+        return 51;
+    }
 }
 

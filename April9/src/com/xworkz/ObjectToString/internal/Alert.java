@@ -18,4 +18,8 @@ public class Alert {
         return "Error:"+error+"Warning:"+warning+"Success:"+success;
     }
 
+    @Override
+    public int hashCode() {
+        return 108;
+    }
 }

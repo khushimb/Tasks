@@ -15,5 +15,10 @@ public class Player {
     public String toString() {
         return "Name:" + name + " Score:" + score + " Level:" + level;
     }
+
+    @Override
+    public int hashCode() {
+        return 46;
+    }
 }
 

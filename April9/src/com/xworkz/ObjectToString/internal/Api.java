@@ -18,4 +18,8 @@ public class Api {
         return "Rest:"+rest+"Graph:"+graph+"Soap:"+soap;
     }
 
+    @Override
+    public int hashCode() {
+        return 14;
+    }
 }

@@ -17,4 +17,9 @@ public class Config {
     public String toString() {
         return "defalt:" + defalt + "Custom:" + custom + "Reset:" + reset;
     }
+
+    @Override
+    public int hashCode() {
+        return 56;
+    }
 }

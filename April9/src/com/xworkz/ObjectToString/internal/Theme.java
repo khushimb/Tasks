@@ -15,5 +15,10 @@ public class Theme {
     public String toString() {
         return "Name:" + name + " Mode:" + mode + " PrimaryColor:" + primaryColor;
     }
+
+    @Override
+    public int hashCode() {
+        return 721;
+    }
 }
 

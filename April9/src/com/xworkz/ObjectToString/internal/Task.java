@@ -15,5 +15,10 @@ public class Task {
     public String toString() {
         return "Title:" + title + " Due:" + due + " Status:" + status;
     }
+
+    @Override
+    public int hashCode() {
+        return 146;
+    }
 }
 

@@ -15,5 +15,10 @@ public class Panel {
     public String toString() {
         return "Heading:" + heading + " Body:" + body + " Status:" + status;
     }
+
+    @Override
+    public int hashCode() {
+        return 43;
+    }
 }
 

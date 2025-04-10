@@ -15,5 +15,10 @@ public class Location {
     public String toString() {
         return "Country:" + country + " State:" + state + " City:" + city;
     }
+
+    @Override
+    public int hashCode() {
+        return 36;
+    }
 }
 

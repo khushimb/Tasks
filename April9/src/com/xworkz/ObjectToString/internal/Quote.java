@@ -15,5 +15,10 @@ public class Quote {
     public String toString() {
         return "Text:" + text + " Author:" + author + " Category:" + category;
     }
+
+    @Override
+    public int hashCode() {
+        return 44;
+    }
 }
 

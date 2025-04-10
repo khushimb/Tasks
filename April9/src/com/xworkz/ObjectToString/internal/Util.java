@@ -15,5 +15,10 @@ public class Util {
     public String toString() {
         return "Name:" + name + " Function:" + function + " Scope:" + scope;
     }
+
+    @Override
+    public int hashCode() {
+        return 587;
+    }
 }
 

@@ -15,5 +15,10 @@ public class Feed {
     public String toString() {
         return "News:" + news + " Social:" + social + " Blog:" + blog;
     }
+
+    @Override
+    public int hashCode() {
+        return 59;
+    }
 }
 

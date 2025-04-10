@@ -15,5 +15,10 @@ public class Nav {
     public String toString() {
         return "Home:" + home + " About:" + about + " Contact:" + contact;
     }
+
+    @Override
+    public int hashCode() {
+        return 41;
+    }
 }
 

@@ -15,5 +15,10 @@ public class Pricing {
     public String toString() {
         return "Plan:" + plan + " Cost:" + cost + " Currency:" + currency;
     }
+
+    @Override
+    public int hashCode() {
+        return 49;
+    }
 }
 

@@ -15,5 +15,10 @@ public class Engine {
     public String toString() {
         return "Fast:" + fast + " Slow:" + slow + " Idle:" + idle;
     }
+
+    @Override
+    public int hashCode() {
+        return 43;
+    }
 }
 

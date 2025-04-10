@@ -15,5 +15,10 @@ public class Tab {
     public String toString() {
         return "Name:" + name + " ID:" + id + " Active:" + active;
     }
+
+    @Override
+    public int hashCode() {
+        return 76;
+    }
 }
 

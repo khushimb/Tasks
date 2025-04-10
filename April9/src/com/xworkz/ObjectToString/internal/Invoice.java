@@ -15,5 +15,10 @@ public class Invoice {
     public String toString() {
         return "Number:" + number + " Date:" + date + " Total:" + total;
     }
+
+    @Override
+    public int hashCode() {
+        return 30;
+    }
 }
 

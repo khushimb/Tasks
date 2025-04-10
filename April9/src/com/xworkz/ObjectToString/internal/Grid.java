@@ -15,5 +15,10 @@ public class Grid {
     public String toString() {
         return "Column:" + column + " Row:" + row + " Gap:" + gap;
     }
+
+    @Override
+    public int hashCode() {
+        return 24;
+    }
 }
 

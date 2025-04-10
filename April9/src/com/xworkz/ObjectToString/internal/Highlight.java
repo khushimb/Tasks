@@ -15,5 +15,10 @@ public class Highlight {
     public String toString() {
         return "Primary:" + primary + " Secondary:" + secondary + " Accent:" + accent;
     }
+
+    @Override
+    public int hashCode() {
+        return 26;
+    }
 }
 

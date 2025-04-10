@@ -15,5 +15,10 @@ public class Metric {
     public String toString() {
         return "Name:" + name + " Value:" + value + " Unit:" + unit;
     }
+
+    @Override
+    public int hashCode() {
+        return 38;
+    }
 }
 

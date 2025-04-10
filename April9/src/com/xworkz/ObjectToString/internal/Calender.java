@@ -17,6 +17,11 @@ public class Calender {
     public String toString(){
         return "Year:"+year+"Day:"+day+"Month:"+month;
     }
+
+    @Override
+    public int hashCode() {
+        return 89;
+    }
 }
 
 

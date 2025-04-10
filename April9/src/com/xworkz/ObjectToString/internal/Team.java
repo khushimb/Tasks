@@ -15,5 +15,10 @@ public class Team {
     public String toString() {
         return "Name:" + name + " Members:" + members + " Leader:" + leader;
     }
+
+    @Override
+    public int hashCode() {
+        return 578;
+    }
 }
 

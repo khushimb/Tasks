@@ -15,4 +15,10 @@ public class Flex {
     public String toString() {
         return "Row:" + row + " Col:" + col + " Wrap:" + wrap;
     }
+
+    @Override
+    public int hashCode() {
+        return 29;
+
+    }
 }

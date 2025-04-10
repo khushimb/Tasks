@@ -17,5 +17,10 @@ public class Button {
     public String toString(){
         return "Primary:"+primary+"Secondary:"+secondary+"Danger:"+danger;
     }
+
+    @Override
+    public int hashCode() {
+        return 67;
+    }
 }
 

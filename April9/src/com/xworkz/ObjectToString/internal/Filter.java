@@ -15,4 +15,9 @@ public class Filter {
     public String toString() {
         return "Active:" + active + " Inactive:" + inactive + " Disabled:" + disabled;
     }
+
+    @Override
+    public int hashCode() {
+        return 43;
+    }
 }

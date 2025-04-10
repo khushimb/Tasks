@@ -17,4 +17,9 @@ public class Checkout {
     public String toString() {
         return "Time:" + time + "Price:" + price + "Place:" + place;
     }
+
+    @Override
+    public int hashCode() {
+        return 67;
+    }
 }

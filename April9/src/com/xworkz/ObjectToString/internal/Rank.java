@@ -15,5 +15,10 @@ public class Rank {
     public String toString() {
         return "Position:" + position + " Name:" + name + " Points:" + points;
     }
+
+    @Override
+    public int hashCode() {
+        return 52;
+    }
 }
 

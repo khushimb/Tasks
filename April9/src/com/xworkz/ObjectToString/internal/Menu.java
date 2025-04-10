@@ -15,4 +15,5 @@ public class Menu {
     public String toString() {
         return "Title:" + title + " Items:" + items + " Type:" + type;
     }
+
 }

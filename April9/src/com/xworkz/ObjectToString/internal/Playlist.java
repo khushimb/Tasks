@@ -15,5 +15,10 @@ public class Playlist {
     public String toString() {
         return "Title:" + title + " Songs:" + songs + " Owner:" + owner;
     }
+
+    @Override
+    public int hashCode() {
+        return 47;
+    }
 }
 

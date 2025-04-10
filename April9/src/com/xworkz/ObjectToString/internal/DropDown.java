@@ -15,6 +15,11 @@ package com.xworkz.ObjectToString.internal;
         public String toString() {
             return "Open:" + open + " Closed:" + closed + " Hover:" + hover;
         }
+
+        @Override
+        public int hashCode() {
+            return 45;
+        }
     }
 
 

@@ -15,4 +15,9 @@ public class Link {
     public String toString() {
         return "Href:" + href + " Text:" + text + " Target:" + target;
     }
+
+    @Override
+    public int hashCode() {
+        return 33;
+    }
 }

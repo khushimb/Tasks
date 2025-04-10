@@ -15,5 +15,10 @@ public class Tabbar {
     public String toString() {
         return "Style:" + style + " Items:" + items + " Position:" + position;
     }
+
+    @Override
+    public int hashCode() {
+        return 79;
+    }
 }
 

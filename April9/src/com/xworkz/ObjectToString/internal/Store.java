@@ -15,5 +15,10 @@ public class Store {
     public String toString() {
         return "Name:" + name + " Location:" + location + " OpenHours:" + openHours;
     }
+
+    @Override
+    public int hashCode() {
+        return 62;
+    }
 }
 

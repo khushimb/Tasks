@@ -15,5 +15,10 @@ public class Step {
     public String toString() {
         return "Number:" + number + " Label:" + label + " Completed:" + completed;
     }
+
+    @Override
+    public int hashCode() {
+        return 61;
+    }
 }
 

@@ -15,5 +15,10 @@ public class Message {
     public String toString() {
         return "Sender:" + sender + " Content:" + content + " Time:" + time;
     }
+
+    @Override
+    public int hashCode() {
+        return 36;
+    }
 }
 

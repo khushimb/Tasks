@@ -18,4 +18,9 @@ public class Avatar {
     public String toString(){
         return "Round:"+round+"Square:"+square+"Circle:"+circle;
     }
+
+    @Override
+    public int hashCode() {
+        return 87;
+    }
 }

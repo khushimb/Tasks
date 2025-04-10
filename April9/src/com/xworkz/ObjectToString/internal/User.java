@@ -15,5 +15,10 @@ public class User {
     public String toString() {
         return "Username:" + username + " Email:" + email + " Role:" + role;
     }
+
+    @Override
+    public int hashCode() {
+        return 401;
+    }
 }
 

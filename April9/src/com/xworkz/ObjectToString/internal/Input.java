@@ -15,5 +15,10 @@ public class Input {
     public String toString() {
         return "Type:" + type + " Placeholder:" + placeholder + " Value:" + value;
     }
+
+    @Override
+    public int hashCode() {
+        return 29;
+    }
 }
 

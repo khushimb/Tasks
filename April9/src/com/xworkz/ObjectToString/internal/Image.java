@@ -15,5 +15,10 @@ public class Image {
     public String toString() {
         return "Src:" + src + " Alt:" + alt + " Format:" + format;
     }
+
+    @Override
+    public int hashCode() {
+        return 28;
+    }
 }
 

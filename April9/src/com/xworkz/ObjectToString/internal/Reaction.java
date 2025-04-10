@@ -15,5 +15,10 @@ public class Reaction {
     public String toString() {
         return "Emoji:" + emoji + " Count:" + count + " User:" + user;
     }
+
+    @Override
+    public int hashCode() {
+        return 54;
+    }
 }
 

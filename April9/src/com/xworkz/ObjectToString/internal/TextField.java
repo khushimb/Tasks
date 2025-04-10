@@ -15,5 +15,10 @@ public class TextField {
     public String toString() {
         return "Placeholder:" + placeholder + " Value:" + value + " Type:" + type;
     }
+
+    @Override
+    public int hashCode() {
+        return 654;
+    }
 }
 

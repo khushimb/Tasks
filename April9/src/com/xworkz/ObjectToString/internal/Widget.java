@@ -15,5 +15,10 @@ public class Widget {
     public String toString() {
         return "ID:" + id + " Type:" + type + " Config:" + config;
     }
+
+    @Override
+    public int hashCode() {
+        return 808;
+    }
 }
 

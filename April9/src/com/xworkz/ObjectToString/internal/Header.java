@@ -15,5 +15,10 @@ public class Header {
     public String toString() {
         return "Logo:" + logo + " Nav:" + nav + " Search:" + search;
     }
+
+    @Override
+    public int hashCode() {
+        return 25;
+    }
 }
 

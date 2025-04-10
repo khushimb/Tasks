@@ -15,5 +15,10 @@ public class SubTitle {
     public String toString() {
         return "Language:" + language + " Format:" + format + " File:" + file;
     }
+
+    @Override
+    public int hashCode() {
+        return 64;
+    }
 }
 

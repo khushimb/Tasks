@@ -17,4 +17,9 @@ public class Dialog {
     public String toString() {
         return "Info:" + info + "warning:" + warning + "error:" + error;
     }
+
+    @Override
+    public int hashCode() {
+        return 56;
+    }
 }

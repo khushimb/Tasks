@@ -17,4 +17,9 @@ public class Badge {
     public String toString(){
         return "Color:"+color+"Price:"+price+"Quality:"+quality;
     }
+
+    @Override
+    public int hashCode() {
+        return 34;
+    }
 }

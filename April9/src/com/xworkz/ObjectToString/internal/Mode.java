@@ -15,5 +15,10 @@ public class Mode {
     public String toString() {
         return "Name:" + name + " Status:" + status + " Type:" + type;
     }
+
+    @Override
+    public int hashCode() {
+        return 40;
+    }
 }
 

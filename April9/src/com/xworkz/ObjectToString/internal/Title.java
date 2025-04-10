@@ -15,5 +15,10 @@ public class Title {
     public String toString() {
         return "Text:" + text + " Level:" + level + " Alignment:" + alignment;
     }
+
+    @Override
+    public int hashCode() {
+        return 359;
+    }
 }
 

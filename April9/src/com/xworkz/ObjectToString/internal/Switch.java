@@ -15,5 +15,10 @@ public class Switch {
     public String toString() {
         return "State:" + state + " Label:" + label + " Type:" + type;
     }
+
+    @Override
+    public int hashCode() {
+        return 64;
+    }
 }
 

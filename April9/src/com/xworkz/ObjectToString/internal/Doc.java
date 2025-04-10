@@ -16,6 +16,11 @@ public class Doc {
         public String toString() {
             return "Draft:" + draft + " Shared:" + shared + " Locked:" + locked;
         }
+
+    @Override
+    public int hashCode() {
+        return 54;
     }
+}
 
 

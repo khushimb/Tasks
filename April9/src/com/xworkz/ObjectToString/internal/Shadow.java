@@ -15,4 +15,9 @@ public class Shadow {
     public String toString() {
         return "Intensity:" + intensity + " Color:" + color + " Direction:" + direction;
     }
+
+    @Override
+    public int hashCode() {
+        return 58;
+    }
 }

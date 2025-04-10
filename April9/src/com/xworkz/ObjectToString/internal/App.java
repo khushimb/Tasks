@@ -18,4 +18,9 @@ public class App {
     public String toString(){
         return "Mobile:"+mobile+"Desktop:"+desktop+"Web:"+web;
     }
+
+    @Override
+    public int hashCode() {
+        return 28;
+    }
 }

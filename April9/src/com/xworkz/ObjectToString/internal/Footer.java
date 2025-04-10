@@ -15,5 +15,11 @@ public class Footer {
     public String toString() {
         return "Simple:" + simple + " Links:" + links + " Contact:" + contact;
     }
+
+    @Override
+    public int hashCode() {
+        return 21;
+
+    }
 }
 

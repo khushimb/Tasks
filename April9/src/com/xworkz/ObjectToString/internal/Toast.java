@@ -15,5 +15,10 @@ public class Toast {
     public String toString() {
         return "Message:" + message + " Duration:" + duration + " Position:" + position;
     }
+
+    @Override
+    public int hashCode() {
+        return 290;
+    }
 }
 

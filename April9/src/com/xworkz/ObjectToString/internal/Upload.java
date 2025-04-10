@@ -15,5 +15,10 @@ public class Upload {
     public String toString() {
         return "Filename:" + filename + " Size:" + size + " Status:" + status;
     }
+
+    @Override
+    public int hashCode() {
+        return 211;
+    }
 }
 

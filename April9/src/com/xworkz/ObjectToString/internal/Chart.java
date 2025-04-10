@@ -17,4 +17,9 @@ public class Chart {
     public String toString(){
         return "Size:"+size+"Price:"+price+"Type:"+type;
     }
+
+    @Override
+    public int hashCode() {
+        return 30;
+    }
 }

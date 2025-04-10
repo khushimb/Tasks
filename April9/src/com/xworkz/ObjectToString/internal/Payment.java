@@ -15,4 +15,9 @@ public class Payment {
     public String toString() {
         return "Method:" + method + " Amount:" + amount + " Status:" + status;
     }
+
+    @Override
+    public int hashCode() {
+        return 44;
+    }
 }

@@ -18,6 +18,11 @@ public class Banner {
     public String toString(){
         return "Info:"+info+"Price:"+price+"Size:"+size;
     }
+
+    @Override
+    public int hashCode() {
+        return 67;
+    }
 }
 
 

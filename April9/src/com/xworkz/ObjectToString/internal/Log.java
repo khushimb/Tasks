@@ -15,4 +15,9 @@ public class Log {
     public String toString() {
         return "Level:" + level + " Message:" + message + " Timestamp:" + timestamp;
     }
+
+    @Override
+    public int hashCode() {
+        return 36;
+    }
 }

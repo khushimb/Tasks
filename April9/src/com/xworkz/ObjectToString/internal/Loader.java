@@ -15,5 +15,10 @@ public class Loader {
     public String toString() {
         return "Type:" + type + " Duration:" + duration + " Color:" + color;
     }
+
+    @Override
+    public int hashCode() {
+        return 35;
+    }
 }
 

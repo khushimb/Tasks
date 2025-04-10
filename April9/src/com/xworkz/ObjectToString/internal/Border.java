@@ -19,6 +19,11 @@ public class Border {
     public String toString(){
         return "Color:"+color+"Lines:"+lines+"Style:"+style;
     }
+
+    @Override
+    public int hashCode() {
+        return 78;
+    }
 }
 
 
